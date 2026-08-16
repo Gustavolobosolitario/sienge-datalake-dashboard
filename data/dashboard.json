@@ -1,9 +1,109 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T00:00:00+00:00",
+  "generated_at": "2026-08-16T02:01:33.208739+00:00",
   "privacy": "Somente dados agregados; sem documentos ou identificadores individuais.",
-  "resumo": {"pedidos": 0, "valor_pedidos": 0, "notas_fiscais": 0, "valor_notas": 0, "vinculos_item": 0, "notas_sem_vinculo": 0},
-  "pedidos_por_mes": [],
-  "notas_por_mes": [],
-  "pedidos_por_situacao": []
+  "resumo": {
+    "pedidos": 3969,
+    "valor_pedidos": 0,
+    "notas_fiscais": 36,
+    "valor_notas": 0,
+    "vinculos_item": 7861,
+    "notas_sem_vinculo": 8
+  },
+  "pedidos_por_mes": [
+    {
+      "periodo": "2025-08",
+      "quantidade": 6,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2025-09",
+      "quantidade": 181,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2025-10",
+      "quantidade": 315,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2025-11",
+      "quantidade": 342,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2025-12",
+      "quantidade": 236,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-01",
+      "quantidade": 287,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-02",
+      "quantidade": 236,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-03",
+      "quantidade": 513,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-04",
+      "quantidade": 414,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-05",
+      "quantidade": 399,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-06",
+      "quantidade": 463,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-07",
+      "quantidade": 420,
+      "valor": 0.0
+    },
+    {
+      "periodo": "2026-08",
+      "quantidade": 157,
+      "valor": 0.0
+    }
+  ],
+  "notas_por_mes": [
+    {
+      "periodo": "2026-08",
+      "quantidade": 36,
+      "valor": 0.0
+    }
+  ],
+  "pedidos_por_situacao": [
+    {
+      "situacao": "FULLY_DELIVERED",
+      "quantidade": 2260,
+      "valor": 0.0
+    },
+    {
+      "situacao": "PENDING",
+      "quantidade": 1135,
+      "valor": 0.0
+    },
+    {
+      "situacao": "PARTIALLY_DELIVERED",
+      "quantidade": 373,
+      "valor": 0.0
+    },
+    {
+      "situacao": "CANCELED",
+      "quantidade": 201,
+      "valor": 0.0
+    }
+  ]
 }
