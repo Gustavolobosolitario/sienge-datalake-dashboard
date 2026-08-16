@@ -1,1 +1,76 @@
-{"schema_version":1,"generated_at":"2026-08-15T00:00:00+00:00","reference_date":"2026-08-15","privacy":"Dados públicos agregados e obras anonimizadas; sem clientes, CPF/CNPJ, contratos ou parcelas individuais.","resumo":{"parcelas":0,"carteira_original":0,"valor_vencido":0,"valor_a_vencer":0,"valor_recebido":0},"aging":[],"recebimentos_por_mes":[],"inadimplencia_por_obra":[],"completude":[]}
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T02:40:00.139195+00:00",
+  "reference_date": "2026-08-16",
+  "privacy": "Dados públicos agregados e obras anonimizadas; sem clientes, CPF/CNPJ, contratos ou parcelas individuais.",
+  "resumo": {
+    "parcelas": 8,
+    "carteira_original": 4104.22,
+    "valor_vencido": 2645.9,
+    "valor_a_vencer": 0,
+    "valor_recebido": 1629.69
+  },
+  "aging": [
+    {
+      "faixa": "1–30 dias",
+      "parcelas": 5,
+      "valor": 2645.9
+    },
+    {
+      "faixa": "31–60 dias",
+      "parcelas": 0,
+      "valor": 0
+    },
+    {
+      "faixa": "61–90 dias",
+      "parcelas": 0,
+      "valor": 0
+    },
+    {
+      "faixa": "Acima de 90",
+      "parcelas": 0,
+      "valor": 0
+    }
+  ],
+  "recebimentos_por_mes": [
+    {
+      "periodo": "2026-08",
+      "recebido": 1629.69
+    }
+  ],
+  "inadimplencia_por_obra": [
+    {
+      "obra": "Obra 1",
+      "parcelas": 3,
+      "valor_vencido": 1906.06
+    },
+    {
+      "obra": "Obra 2",
+      "parcelas": 1,
+      "valor_vencido": 539.84
+    },
+    {
+      "obra": "Obra 3",
+      "parcelas": 1,
+      "valor_vencido": 200.0
+    }
+  ],
+  "completude": [
+    {
+      "campo": "Cliente",
+      "percentual": 100.0
+    },
+    {
+      "campo": "Empresa",
+      "percentual": 100.0
+    },
+    {
+      "campo": "Obra",
+      "percentual": 100.0
+    },
+    {
+      "campo": "Vencimento",
+      "percentual": 100.0
+    }
+  ]
+}
