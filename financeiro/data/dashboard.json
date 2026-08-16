@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-08-16T02:40:00.139195+00:00",
+  "schema_version": 2,
+  "generated_at": "2026-08-16T02:59:50.115393+00:00",
   "reference_date": "2026-08-16",
-  "privacy": "Dados públicos agregados e obras anonimizadas; sem clientes, CPF/CNPJ, contratos ou parcelas individuais.",
+  "privacy": "Valores e datas reais com clientes e obras anonimizados; sem nomes, CPF/CNPJ, contratos, unidades ou IDs do Sienge.",
   "resumo": {
     "parcelas": 8,
     "carteira_original": 4104.22,
@@ -71,6 +71,96 @@
     {
       "campo": "Vencimento",
       "percentual": 100.0
+    }
+  ],
+  "parcelas_anonimizadas": [
+    {
+      "cliente": "Cliente 6",
+      "obra": "Obra 1",
+      "emissao": "2024-11-29",
+      "vencimento": "2026-08-15",
+      "valor_original": 1052.8,
+      "saldo_atual": 1100.86,
+      "situacao": "INADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 4",
+      "obra": "Obra 1",
+      "emissao": "2024-10-10",
+      "vencimento": "2026-08-15",
+      "valor_original": 626.2,
+      "saldo_atual": 654.79,
+      "situacao": "INADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 3",
+      "obra": "Obra 1",
+      "emissao": "2024-10-14",
+      "vencimento": "2026-08-15",
+      "valor_original": 593.44,
+      "saldo_atual": 0,
+      "situacao": "ADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 5",
+      "obra": "Obra 1",
+      "emissao": "2024-10-16",
+      "vencimento": "2026-08-15",
+      "valor_original": 565.48,
+      "saldo_atual": 0,
+      "situacao": "ADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 1",
+      "obra": "Obra 3",
+      "emissao": "2024-09-12",
+      "vencimento": "2026-08-15",
+      "valor_original": 399.62,
+      "saldo_atual": 0,
+      "situacao": "ADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 2",
+      "obra": "Obra 3",
+      "emissao": "2024-09-13",
+      "vencimento": "2026-08-15",
+      "valor_original": 516.27,
+      "saldo_atual": 539.84,
+      "situacao": "INADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 7",
+      "obra": "Obra 1",
+      "emissao": "2026-02-01",
+      "vencimento": "2026-08-15",
+      "valor_original": 150.41,
+      "saldo_atual": 150.41,
+      "situacao": "INADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": true
+    },
+    {
+      "cliente": "Cliente 8",
+      "obra": "Obra 2",
+      "emissao": "2026-08-10",
+      "vencimento": "2026-08-15",
+      "valor_original": 200.0,
+      "saldo_atual": 200.0,
+      "situacao": "INADIMPLENTE",
+      "dias_atraso": 1,
+      "boleto_gerado": false
     }
   ]
 }
