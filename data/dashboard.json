@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-15T00:00:00+00:00",
+  "privacy": "Somente dados agregados; sem documentos ou identificadores individuais.",
+  "resumo": {"pedidos": 0, "valor_pedidos": 0, "notas_fiscais": 0, "valor_notas": 0, "vinculos_item": 0, "notas_sem_vinculo": 0},
+  "pedidos_por_mes": [],
+  "notas_por_mes": [],
+  "pedidos_por_situacao": []
+}
